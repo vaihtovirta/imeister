@@ -4,13 +4,13 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'imeister/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "imeister"
+  spec.name          = 'imeister'
   spec.version       = Imeister::VERSION
-  spec.authors       = ["Emil Shakirov"]
-  spec.email         = ["emil.shakirov@fishtag.ru"]
+  spec.authors       = ['Emil Shakirov']
+  spec.email         = ['emil.shakirov@fishtag.ru']
 
   spec.summary       = 'Tiny gem for fetching information about Apple Phones by imei'
-  spec.homepage      = "github.com"
+  spec.homepage      = 'github.com'
 
   # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or
   # delete this section to allow pushing this gem to any host.
@@ -27,5 +27,7 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency 'bundler', '~> 1.9'
   spec.add_development_dependency 'rake', '~> 10.0'
+  spec.add_development_dependency 'mechanize', '~> 2.7.3'
   spec.add_development_dependency 'watir-webdriver', '~> 0.7.0'
+  spec.add_development_dependency 'headless', '~> 2.1.0'
 end
