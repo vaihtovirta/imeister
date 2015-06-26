@@ -31,7 +31,7 @@ module Imeister
     end
 
     def warranty_url
-      "#{WARRANTY_URL}?sn=#{@imei}&num=#{rand(999999)}"
+      "#{WARRANTY_URL}?sn=#{@imei}&num=#{rand(999_999)}"
     end
   end
 end
