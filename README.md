@@ -2,6 +2,9 @@
 
 Tiny gem for fetching information about Apple Phones' warranty by imei
 
+## Dependencies
+
+Gem requires [PhantomJS](http://phantomjs.org/)
 
 ## Installation
 
@@ -21,7 +24,8 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+imeister = Imeister::Finder.new(VALID_IMEI)
+imeister.find #=> "10 May 2017"
 
 ## Development
 
