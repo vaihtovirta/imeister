@@ -17,7 +17,7 @@ module Imeister
       if green?(@div.class_name)
         expiration_date
       elsif yellow?(@div.class_name)
-        'Warranty has been expired'
+        'Out of warranty'
       else
         'Some error occurred, please try again'
       end

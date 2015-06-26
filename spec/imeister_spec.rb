@@ -13,7 +13,7 @@ describe Imeister do
     it 'returns message about warranty overdue' do
       valid_imei =  '013896000639712'
       result = Imeister.find(valid_imei)
-      expect(result).to eq 'Warranty has been expired'
+      expect(result).to eq 'Out of warranty'
     end
 
     describe 'invalid imei' do
