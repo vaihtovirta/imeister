@@ -1,11 +1,18 @@
 require 'imeister/version'
-require 'imeister/checker'
-require 'imeister/parser'
+require 'imeister/warranty_status'
 
 module Imeister
   class << self
     def find(imei)
-      Imeister::Parser.new(imei).submit
+      return 'Invalid IMEI number' unless imei_valid?(imei)
+      WarrantyStatus.new(imei)
+    end
+
+    private
+
+    def imei_valid?(imei)
+      return false if imei.nil?
+      imei.length > 0 && !imei.match(VALID_IMEI_REGEXP).nil?
     end
   end
 end
