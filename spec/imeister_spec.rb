@@ -1,7 +1,5 @@
 # coding: utf-8
-
 require 'spec_helper'
-require 'pry'
 
 describe Imeister do
   describe 'find by valid imei' do

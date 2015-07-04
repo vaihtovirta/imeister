@@ -31,7 +31,7 @@ module Imeister
       Faraday.new(url: WARRANTY_URL) do |faraday|
         faraday.request  :url_encoded
         faraday.response :logger
-        faraday.adapter  :net_http
+        faraday.adapter  Faraday.default_adapter
       end
     end
 
