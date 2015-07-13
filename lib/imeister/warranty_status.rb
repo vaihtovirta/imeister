@@ -29,14 +29,14 @@ module Imeister
 
     def connection
       Faraday.new(url: WARRANTY_URL) do |faraday|
-        faraday.request  :url_encoded
+        faraday.request :url_encoded
         faraday.response :logger
-        faraday.adapter  Faraday.default_adapter
+        faraday.adapter Faraday.default_adapter
       end
     end
 
     def response
-      connection.post RESULTS_URL, {sn: @imei, num: rand(999_999)}
+      connection.post RESULTS_URL, sn: @imei, num: rand(999_999)
     end
   end
 end
