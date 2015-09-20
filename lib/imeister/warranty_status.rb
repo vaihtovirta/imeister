@@ -1,30 +1,34 @@
 require 'faraday'
-require_relative 'constants'
+require 'wannabe_bool'
 
 module Imeister
   class WarrantyStatus
-    attr_reader :warranty_status, :expiration_date
+    attr_reader :in_warranty, :expiration_date
 
     def initialize(imei = '')
       @imei = imei
-      @warranty_status = nil
+      @in_warranty = false
       @expiration_date = nil
-      info
+      @response = response
     end
 
-    def info
-      if status == 'true'
-        @warranty_status = 'In warranty'
-        @expiration_date = response.body.match(EXPIRATION_DATE_REGEXP)[1]
-      else
-        @warranty_status = 'Out of warranty'
+    def call
+      if status
+        @in_warranty = true
+        @expiration_date = check_expiration_date
       end
+
+      self
     end
 
     private
 
+    def check_expiration_date
+      Date.parse @response.body.match(EXPIRATION_DATE_REGEXP)[1]
+    end
+
     def status
-      response.body.match(STATUS_REGEXP)[1]
+      @response.body.match(STATUS_REGEXP)[1].to_b
     end
 
     def connection

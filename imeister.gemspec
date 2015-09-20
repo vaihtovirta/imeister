@@ -20,4 +20,8 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'bundler', '~> 1.9'
   spec.add_development_dependency 'rake', '~> 10.0'
   spec.add_development_dependency 'faraday', '~> 0.9.1'
+  spec.add_development_dependency 'vcr', '~> 2.9.3'
+  spec.add_development_dependency 'webmock'
+  spec.add_development_dependency 'wannabe_bool'
+  spec.add_development_dependency 'rspec'
 end

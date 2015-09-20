@@ -1,19 +1,25 @@
 # coding: utf-8
 require 'spec_helper'
 
-describe Imeister do
+describe Imeister, vcr: true do
+  let(:active_device) do
+    VCR.use_cassette('active_device') { Imeister.find('013977000323877') }
+  end
+  let(:expired_device) do
+    VCR.use_cassette('expired_device') { Imeister.find('013896000639712') }
+  end
+
   describe 'find by valid imei' do
-    it 'returns expiration date' do
-      valid_imei =  '013977000323877'
-      result = Imeister.find(valid_imei)
-      expect(result.warranty_status).to eq 'In warranty'
-      expect(result.expiration_date).to eq 'August 10, 2016'
+    it 'returns expiration date and warranty status' do
+      expect(active_device.in_warranty).to be true
+      expect(active_device.expiration_date.is_a? Date).to be true
+      expect(active_device.expiration_date.day).to eq 10
+      expect(active_device.expiration_date.month).to eq 8
+      expect(active_device.expiration_date.year).to eq 2016
     end
 
     it 'returns message about warranty overdue' do
-      valid_imei =  '013896000639712'
-      result = Imeister.find(valid_imei)
-      expect(result.warranty_status).to eq 'Out of warranty'
+      expect(expired_device.in_warranty).to be false
     end
   end
 

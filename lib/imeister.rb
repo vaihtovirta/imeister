@@ -1,11 +1,13 @@
 require 'imeister/version'
 require 'imeister/warranty_status'
+require 'imeister/constants'
 
 module Imeister
   class << self
     def find(imei)
       return 'Invalid IMEI number' unless imei_valid?(imei)
-      WarrantyStatus.new(imei)
+
+      WarrantyStatus.new(imei).call
     end
 
     private

@@ -1,0 +1,585 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://selfsolve.apple.com/wcResults.do
+    body:
+      encoding: UTF-8
+      string: num=854438&sn=013977000323877
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - text/html; charset=UTF-8
+      X-Frame-Options:
+      - SAMEORIGIN
+      - SAMEORIGIN
+      X-Powered-By:
+      - Servlet/2.5 JSP/2.1
+      Cneonction:
+      - close
+      Vary:
+      - Accept-Encoding
+      Date:
+      - Sun, 20 Sep 2015 15:28:13 GMT
+      Content-Length:
+      - '19817'
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - JSESSIONID=7sLhV2QMLfRPnlyDZ4PQJPxWL8nrDLl9pzBVT0xqq1LbwmV1bc9j!-807487550;
+        path=/; secure; HttpOnly
+      - NSC_MCWT_tfmgtpmwf-bt.dpsq_80_443=ffffffff122a060345525d5f4f58455e445a4a4200c1;Version=1;path=/;httponly
+      - POD=us~en; domain=.apple.com; expires=Sunday, 18-Oct-2015 15:28:13 GMT; path=/
+      - POD=us~en; domain=.apple.com; expires=Sunday, 18-Oct-2015 15:28:13 GMT; path=/
+    body:
+      encoding: UTF-8
+      string: "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<!DOCTYPE
+        html>\n<html lang=\"en-US\">\n<head>\n\t<meta charset=\"utf-8\">\n\t<meta
+        http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" />\n\t<meta
+        name=\"viewport\" content=\"width=1024\" />\n\t<meta name=\"Category\" content=\"Support\"
+        />\n\n\t\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=EmulateIE9\">\n
+        \   <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">\n
+        \   <meta http-equiv=\"Cache-Control\" content=\"no-siteapp\"/>\n    \n    <script
+        src=\"https://www.apple.com/global/scripts/lib/prototype.js\" type=\"text/javascript\"
+        charset=\"utf-8\"></script>\n    <script src=\"js/jquery-1.4.2.min.js\" type=\"text/javascript\"
+        charset=\"utf-8\"></script>\n    <script type=\"text/javascript\" src=\"js/jquery.titlealert.min.js\"
+        charset=\"utf-8\"></script>\n     <script>jQuery.noConflict();</script>\n
+        \   <script src=\"https://www.apple.com/global/scripts/lib/scriptaculous.js\"
+        type=\"text/javascript\" charset=\"utf-8\"></script>\n    <script src=\"js/content.js\"
+        type=\"text/javascript\" charset=\"utf-8\"></script>\n    <link rel=\"shortcut
+        icon\" href=\"images/favicon.ico\">\n\n<!-- This is the Remote Machine's 17.34.27.254
+        IP Address-->\n<script type=\"text/javascript\">\n  var errMsgData = {\n            'errEmpty'
+        : 'Please enter your product&#39;s serial number.',\n            'errLength'
+        : 'Please enter a valid serial number.',\n            'errChar' : 'Please
+        enter a valid serial number.',\n           };\n  \n  var strSysProWCResp =
+        '';\n\n\n</script>\n\n\n<title>\nApple - Support - Check Your Service and
+        Support Coverage\n\t\t</title>\n<meta name=\"omni_page\" content=\"acs::tools::wck::1-enter
+        serial number\">\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n</head>\n<body>\n\n<script
+        type=\"text/javascript\"  charset=\"utf-8\" src=\"https://km.support.apple.com.edgekey.net/includes/darwin/en_US/secure/header.js\">
+        </script>\n\n\n\t\t<!-- omniture reference must be located before omniture_tracking.js
+        -->\n\t\t<div id=\"top\">\n<!-- SiteCatalyst code version: H.8. Copyright
+        1997-2006 Omniture, Inc. -->\n<script type=\"text/javascript\">\n/* RSID:
+        */\nvar s_account=\"appleglobal,applesupport\"\n</script>\n\n\n<script type=\"text/javascript\"
+        src=\"https://www.apple.com/global/metrics/js/s_code_h.js\"></script>\n\n<script
+        type=\"text/javascript\">\ns.prop1 ='Online Self Solve';\n\ns.campaign=s.getQueryParam('sc_cid');\nif(s.campaign=='587735'){\n\ts.campaign=\"acs::system
+        profiler::us\";\n}\n\n\nif (!s.prop1) {s.prop1 = ''};\nif (!s.prop2) {s.prop2
+        = ''};\n\nvar url=location.href;\nvar pathArray = url.split('/');\nif (!s.prop1)
+        {s.prop1 = pathArray[4]};\nif (!s.prop2) {s.prop2 = pathArray[5]};\n\nvar
+        len=url.indexOf('?');\nif (len==-1){len=url.length}\ns.prop4=url.substr(0,len);\n\ns.pageName=AC.Tracking.pageName()+\"
+        (US)\";\ns.server=\"\"\ns.channel=\"www.us.support\"\ns.pageType=\"\"\ns.prop3=\"\"\nif
+        (!s.prop1 && s.pageName){\n\tif (s.pageName.match(/acs::web::homepage/)){\n\t\ts.prop1
+        = 'home';\n\t}\n}\n\n/* E-commerce Variables */\ns.state=\"\"\ns.zip=\"\"\ns.events=\"\"\ns.products=\"\"\ns.purchaseID=\"\"\ns.eVar1=\"\"\ns.eVar2=\"\"\ns.eVar3=\"\"\ns.eVar4=\"\"\ns.eVar5=\"\"\n\n/*************
+        DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/\ns.useForcedLinkTracking=false;var
+        s_code=s.t();if(s_code)document.write(s_code)</script>\n<!-- End SiteCatalyst
+        code version: H.8. -->\n</div>\n\n\n\n<link rel=\"stylesheet\" href=\"css/gateway.css\"
+        type=\"text/css\" charset=\"utf-8\">\n\n<LINK href=\"css/border-radius.htc\"
+        rel=\"stylesheet\" type=\"text/css\">\n\n<script>\n/* timeoutexpiring = 'Your
+        session is expiring soon due to an extended period of inactivity. Please click
+        Continue to keep your session active.'; */\ntimeoutexpiring = 'Your session
+        is expiring soon due to an extended period of inactivity. Please click Continue
+        to keep your session active.';\n/* continueButton = 'Continue'; */\ncontinueButton
+        = 'Continue';\n</script>\n\n<script src=\"js/utils.js\" type=\"text/javascript\"
+        charset=\"utf-8\"></script>\n<script src=\"js/clicktracking.js\" type=\"text/javascript\"
+        charset=\"utf-8\"></script>\n<script src=\"js/omniture_tracking.js\" type=\"text/javascript\"
+        charset=\"utf-8\"></script>\n<script type=\"text/javascript\" charset=\"utf-8\">utilService.setPOD('us~en');</script>\n\n<script>\n/*
+        timeoutexpiring = 'Your session is expiring soon due to an extended period
+        of inactivity. Please click Continue to keep your session active.'; */\ntimeoutexpiring
+        = 'Your session is expiring soon due to an extended period of inactivity.
+        Please click Continue to keep your session active.';\n/* timedoutexpired =
+        'Your session has expired due to an extended period of inactivity. If you
+        have other active online sessions with Apple Support, clicking Continue will
+        also end those sessions.'; */\ntimedoutexpired = 'Your session has expired
+        due to an extended period of inactivity. If you have other active online sessions
+        with Apple Support, clicking Continue will also end those sessions.';\n/*
+        areYouSureContent='Are you sure you&#39;d like to sign out?'; */\nareYouSureContent
+        = 'Are you sure you&#39;d like to sign out?';\n/* cancelBtn = 'Cancel'; */\ncancelBtn
+        = 'Cancel';\n/* signOutBtn = 'Sign out'; */\nsignOutBtn = 'Sign out';\n/*
+        whyMessageContent = 'When you sign in with your Apple ID, your contact information
+        is automatically added when needed, and it&#39;s easier to look up details
+        you have already provided.<br><br>An Apple ID is a user name you can use for
+        everything you do with Apple. You can use the same Apple ID you use for iTunes
+        Store, Apple Online Store, iChat, iCloud or other Apple services.'; */\nwhyMessageContent
+        = 'When you sign in with your Apple ID, your contact information is automatically
+        added when needed, and it&#39;s easier to look up details you have already
+        provided.<br><br>An Apple ID is a user name you can use for everything you
+        do with Apple. You can use the same Apple ID you use for iTunes Store, Apple
+        Online Store, iChat, iCloud or other Apple services.';\n/* continueButton
+        = 'Continue'; */\ncontinueButton = 'Continue';\n/* whylink = '(<a href=\"#\"
+        onclick=\"displayWhyMessage();\" tabindex=\"-1\">Why?</a>)'; */\nwhylink =
+        '(<a href=\"#\" onclick=\"displayWhyMessage();\" tabindex=\"-1\">Why?</a>)';\n/*
+        signin='<div id=\"sign_accessible\" class=\"anch_accessible\" tabindex=\"0\"><a
+        href=\"/Login.do\" tabindex=\"-1\">Sign in</a></div>&nbsp;with your Apple
+        ID'; */\nsignin = '<div id=\"sign_accessible\" class=\"anch_accessible\" tabindex=\"0\"><a
+        href=\"/Login.do\" tabindex=\"-1\">Sign in</a></div>&nbsp;with your Apple
+        ID';\n/* signout='Sign out'; */\nsignout = 'Sign out';\n</script>\n\n<div
+        id=\"container\">\n\t<noscript><font color=\"red\">The site you are viewing
+        requires JavaScript.  JavaScript is used in a variety of ways to improve the
+        online experience, such as allowing interactive content.  In order for this
+        site to operate as designed, please enable JavaScript in your browser.</font></noscript>
+        \n    <div id=\"main\">\n            \n        <div id=\"service\">\n        <!--
+        Gateway changes start -->\n            \t\n        \t\t\t\t\t<div id=\"signin_why_content\">\n
+        \       \t\t\t\t\t\n        \t\t\t\t\t\t<div id=\"sign_accessible\" class=\"anch_accessible\"
+        tabindex=\"0\"><a href=\"/Login.do\" tabindex=\"-1\">Sign in</a></div>&nbsp;with
+        your Apple ID\n        \t\t\t\t\t\t<span id=\"why_signin\" tabIndex=\"0\"
+        class='anch_accessible' >\n        \t\t\t\t\t\t\n        \t\t\t\t\t\t(<a href=\"#\"
+        onclick=\"displayWhyMessage();\" tabindex=\"-1\">Why?</a>)\n        \t\t\t\t\t\t</span>\n
+        \       \t\t\t\t\t</div>\t\n        \t\t\t\t\t\n        \t\t\t\t\t<div style=\"clear:
+        both; height: 0; line-height: 0; font-size: 0;\"></div>\n        \t\t\t\t\t\n
+        \                  \t\t<div id=\"wrap_popup1\" style=\"display:none; margin-top:
+        16px;\">\n                   \t\t\n                   \t\t\n        \t\t\t\t\t<div
+        style=\"position: relative; width: 280px; margin: 10px; background:#fff;\">\n
+        \       \t\t\t\t\t\t<div id=\"closeButton\" ><img src=\"images/close_button1.png\"
+        onclick=\"javascript:closeWhyMessage();\"></div>\n        \t\t\t\t\t\t\n        \t\t\t\t\t\t<div
+        id=\"whySignIn\">\n        \t\t\t\t\t\t\n        \t\t\t\t\t\tWhen you sign
+        in with your Apple ID, your contact information is automatically added when
+        needed, and it&#39;s easier to look up details you have already provided.<br><br>An
+        Apple ID is a user name you can use for everything you do with Apple. You
+        can use the same Apple ID you use for iTunes Store, Apple Online Store, iChat,
+        iCloud or other Apple services.\n        \t\t\t\t\t\t</div>\n        \t\t\t\t\t\t\n
+        \       \t\t\t\t\t</div>\n        \t\t\t\t\t\n        \t\t\t\t</div>\n                    \n\n
+        <!-- Gateway changes End -->\n\n\n<script src=\"js/utils/cookieJar.js\" type=\"text/javascript\"\n\tcharset=\"utf-8\"></script>\n<script
+        src=\"js/warranty/warrantyChecker2.js\" type=\"text/javascript\"\n\tcharset=\"utf-8\"></script>\n<script
+        src=\"js/agreementSales/salesWarrantyEntry.js\"\n\ttype=\"text/javascript\"
+        charset=\"utf-8\"></script>\n\n<style>\n#warranty button.happy\n{\n\tline-height
+        : 175%;\n}\n</style>\n<link rel=\"stylesheet\" href=\"css/wc.css\" type=\"text/css\"
+        charset=\"utf-8\">\n\n<div id=\"container\">\n\t<div id=\"main\">\n\t\t\n\t\t<div
+        class=\"padtop15\"></div>\n\n\t\t<div id=\"warranty\" class=\"module\">\n\t\t\t<div
+        id=\"signedout\" style=\"display: none; top: 0px;\">\n\t\t\t\t<img src=\"images/alert_large.png\"
+        width=\"75\" height=\"79\"\n\t\t\t\t\talign=\"middle\" style=\"float: left;
+        margin-right: 18px;\" />\n\t\t\t\t<div style=\"margin-top: 20px;\">\n\t\t\t\t\tYou
+        are signed out and your session has ended.\n\t\t\t\t\t<br>\n\t\t\t\t\t<span>\n\t\t\t\t\tYou
+        can start a new session below.\n\t\t\t\t\t</span>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<h1>\n\t\t\t\t<span
+        id=\"wcTitleCheck\" style=\"display: none\">\n\t\t\t\tCheck Your Service and
+        Support Coverage\n\t\t\t\t</span> <span\n\t\t\t\t\tid=\"wcTitleStatus\" style=\"display:
+        none\">\n\t\t\t\t\tYour Service and Support Coverage\n\t\t\t\t\t</span>\n\t\t\t</h1>\n\t\t\t<div
+        id=\"tagline\" style=\"display: none\">\n\t\t\t\tReview your Apple warranty
+        status and eligibility for support and extended coverage.\n\t\t\t</div>\n\n\t\t\t<div
+        id=\"cookieSpinner\" class=\"pad20\" style=\"display: none\">\n\t\t\t\t<img\n\t\t\t\t\tsrc=\"https://www.apple.com/support/applecare/images/aquaspinner20.gif\"\n\t\t\t\t\twidth=\"20\"
+        height=\"20\">\n\t\t\t</div>\n\t\t\t<div id=\"check\" class=\"pad20\" style=\"display:
+        none\">\n\n\t\t\t\t<!--  FORM  -->\n\n\t\t\t\t<!-- added bY manash -->\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t<form
+        id=\"serialnumbercheck\"\n\t\t\t\t\taction=\"/wcResults.do\" method=\"post\">\n\t\t\t\t\t\n\t\t\t\t\t<fieldset>\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\tEnter
+        your hardware serial number:\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t</label>
+        <br /> <input\n\t\t\t\t\t\t\ttype=\"text\" maxlength=\"15\" size=\"35\" name=\"sn\"
+        id=\"sn\" value=\"\" />\n\t\t\t\t\t\t<button name=\"Continue\" type=\"button\"
+        class=\"happy\"\n\t\t\t\t\t\t\tid=\"warrantycheckbutton\">\n\t\t\t\t\t\t\tContinue\n\t\t\t\t\t\t</button>\n\t\t\t\t\t\t<span
+        id=\"warrantycheckspinner\" style=\"display: none\"><img\n\t\t\t\t\t\t\tsrc=\"https://www.apple.com/support/applecare/images/aquaspinner20.gif\"\n\t\t\t\t\t\t\twidth=\"20\"
+        height=\"20\"></span>\n\t\t\t\t\t\t<div id=\"errorDiv\" style=\"display: none\">\n\t\t\t\t\t\t\t<span
+        id=\"error\" style=\"color: red\"></span>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<p
+        class=\"sidebar\">\n\t\t\t\t\t\t\tFinding your serial number is easy. <a href=\"https://support.apple.com/en-us/HT204308\"
+        target=\"_blank\">See how.</a>\t\t\t\t\t\t\t\n\t\t\t\t\t</fieldset>\n\t\t\t\t\t<input
+        type=\"hidden\" name=\"cn\" id=\"cn\" value=\"\" /> <input\n\t\t\t\t\t\ttype=\"hidden\"
+        name=\"locale\" id=\"locale\" value=\"\" /> <input\n\t\t\t\t\t\ttype=\"hidden\"
+        name=\"caller\" id=\"caller\" value=\"\" /> <input\n\t\t\t\t\t\ttype=\"hidden\"
+        name=\"num\" id=\"num\" value=\"\" />\n\t\t\t\t</form>\n\n\n\t\t\t\t<div class=\"padtop35\"></div>\n\t\t\t</div>\n\n\t\t\t<div
+        id=\"product\" style=\"display: none\">\n\t\t\t\t<div id=\"productimage\"></div>\n\t\t\t\t<div
+        id=\"productinfo\">\n\t\t\t\t\t<h2>\n\t\t\t\t\t\t<span id=\"productname\"></span>\n\t\t\t\t\t</h2>\n\t\t\t\t\t<span
+        id=\"imeiLabel\" style=\"display: none\"> \n\t\t\t\t\tIMEI:\n\t\t\t\t\t</span>
+        <span id=\"snLabel\" style=\"display: none\"> \n\t\t\t\t\tSerial Number:\n\t\t\t\t\t</span>
+        <span id=\"prodIdLabel\" style=\"display: none\"> \n\t\t\t\t\tMEID:\t\t \n\t\t\t\t\t</span>
+        <span id=\"productsn\"></span><br> <a\n\t\t\t\t\t\thref=\"/agreementWarrantyDynamic.do?newid=y\">\n\t\t\t\t\t\tCheck
+        another serial number\t \n\t\t\t\t\t\t\t </a>\n\t\t\t\t</div>\n\t\t\t\t<div
+        class=\"clear\"></div>\n\t\t\t</div>\n\n\t\t\t<div id=\"results\" style=\"display:
+        none\">\n\n\t\t\t\t<table>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t\t<div
+        id=\"iphonenotactivated\" class=\"status\">\n\t\t\t\t\t\t\t\t<h3 id=\"iphonenotactivated-true\"
+        style=\"display: none\">\n\t\t\t\t\t\t\t\t\tPlease activate your iPhone\n\t\t\t\t\t\t\t\t</h3>\n\t\t\t\t\t\t\t\t<p
+        id=\"iphonenotactivated-text\"></p>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t\t<td
+        class=\"button\">\n\t\t\t\t\t\t\t<button name=\"iphonenotactivated-button\"\n\t\t\t\t\t\t\t\tid=\"iphonenotactivated-button\"
+        class=\"happy\" type=\"button\"\n\t\t\t\t\t\t\t\t>\n\t\t\t\t\t\t\t\tService
+        Options\n\t\t\t\t\t\t\t</button>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t</tr>\n\t\t\t\t\t\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t\t<div
+        id=\"loaner\" class=\"status\">\n\t\t\t\t\t\t\t\t<h3 id=\"loaner-true\" style=\"display:
+        none\">\n\t\t\t\t\t\t\t\t\tApple Loaner Device\n\t\t\t\t\t\t\t\t</h3>\n\t\t\t\t\t\t\t\t<p
+        id=\"loaner-text\"></p>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t\t<td
+        class=\"button\">\n\t\t\t\t\t\t\t<button name=\"loaner-button\"\n\t\t\t\t\t\t\t\tid=\"loaner-button\"
+        class=\"happy\" type=\"button\"\n\t\t\t\t\t\t\t\t>\n\t\t\t\t\t\t\t\tContact
+        Apple Support\n\t\t\t\t\t\t\t</button>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t</tr>\n\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t\t<div
+        id=\"registration\" class=\"status\">\n\t\t\t\t\t\t\t\t<h3 id=\"registration-true\"
+        style=\"display: none\">\n\t\t\t\t\t\t\t\t\tValid Purchase Date\n\t\t\t\t\t\t\t\t</h3>\n\n\t\t\t\t\t\t\t\t<h3
+        id=\"registration-false\" style=\"display: none\">\n\t\t\t\t\t\t\t\t\tPurchase
+        Date not Validated\n\t\t\t\t\t\t\t\t</h3>\n\t\t\t\t\t\t\t\t<p id=\"registration-text\"></p>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t\t<td></td>\n\t\t\t\t\t</tr>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>\n\n\t\t\t\t\t\t\t<div
+        id=\"phone\" class=\"status\">\n\t\t\t\t\t\t\t\t<h3 id=\"phone-true\" style=\"display:
+        none\">\n\t\t\t\t\t\t\t\t\tTelephone Technical Support: Active\n\t\t\t\t\t\t\t\t</h3>\n\t\t\t\t\t\t\t\t<h3
+        id=\"phone-false\" style=\"display: none\">\n\t\t\t\t\t\t\t\t\tTelephone Technical
+        Support: Expired\n\t\t\t\t\t\t\t\t</h3>\n\t\t\t\t\t\t\t\t<!--  <div id=\"phone-expiration\"></div>
+        -->\n\t\t\t\t\t\t\t\t<p id=\"phone-text\"></p>\n\t\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t</td>\n\t\t\t\t\t\t<td
+        class=\"button\">\n\t\t\t\t\t\t\t<button name=\"phone-button\" id=\"phone-button\"
+        class=\"happy\" type=\"button\"\n\t\t\t\t\t\t\t\tonclick=\"\" >\n\t\t\t\t\t\t\t\tContact
+        Apple Support\n\t\t\t\t\t\t\t</button>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t</tr>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t\t<div
+        id=\"hardware\" class=\"status\">\n\n\t\t\t\t\t\t\t\t<h3 id=\"hardware-true\"
+        style=\"display: none\"></h3>\n\t\t\t\t\t\t\t\t<h3 id=\"hardware-false\" style=\"display:
+        none\"></h3>\n\t\t\t\t\t\t\t\t<h3 id=\"hardware-covered\" style=\"display:
+        none\"></h3>\n\t\t\t\t\t\t\t\t<!-- <div id=\"hardware-expiration\"></div>
+        -->\n\t\t\t\t\t\t\t\t<p id=\"hardware-text\"></p>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</td>\n\n\t\t\t\t\t\t<td
+        class=\"button\">\n\t\t\t\t\t\t\t<button name=\"hardware-button\" id=\"hardware-button\"
+        class=\"happy\" type=\"button\"\n\t\t\t\t\t\t\t\t onclick=\"\">\n\t\t\t\t\t\t\t\tSet
+        Up a Repair\n\t\t\t\t\t\t\t</button>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t</tr>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t\t<div
+        id=\"app\" class=\"status\">\n\t\t\t\t\t\t\t\t<h3 id=\"app-true\" style=\"display:
+        none\"></h3>\n\n\t\t\t\t\t\t\t\t<h3 id=\"app-false\" style=\"display: none\"></h3>\n\t\t\t\t\t\t\t\t<h3
+        id=\"app-covered\" style=\"display: none\"></h3>\n\t\t\t\t\t\t\t\t<p id=\"app-text\"></p>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t\t<td
+        class=\"button\">\n\t\t\t\t\t\t\t<button name=\"app-button\" id=\"app-button\"
+        class=\"happy\" type=\"button\"\n\t\t\t\t\t\t\t\t>\n\t\t\t\t\t\t\t\tExtend
+        Coverage\n\t\t\t\t\t\t\t</button>\n\n\t\t\t\t\t\t</td>\n\t\t\t\t\t</tr>\n\t\t\t\t</table>\n\n\t\t\t\t<!--/#OSS-111
+        start-->\n\t\t\t\t<p class=\"sosumi padtop20\">\n\t\t\t\t<div id=\"dispute\"
+        class=\"status\"></div>\n\t\t\t\t</p>\n\t\t\t\t<!--/#OSS-111 end-->\n\t\t\t\t<!--/#registered-->\n\t\t\t\t<!--\n
+        \         <div id=\"feedback\" class=\"sidebar\" style=\"border-top:1px solid
+        #ccc; padding:10px 20px\">If you have suggestions on how to improve the experience
+        of checking your warranty status, <a href=\"http://www.apple.com/support/feedback/index.html?ref=agreements\">please
+        let us know</a>.</div>\n         -->\n\t\t\t</div>\n\n\t\t</div>\n\t\t<!--/#main-->\n\t</div>\n\t<!--/#container-->\n\t\n\t<script
+        type=\"text/javascript\">\n\t\t$('signedout').hide();\n\t\t</script>\n\t\n\t<script
+        type=\"text/javascript\">\nvar warrantyPage;\n//instantiate warranty checker\nvar
+        warrantyChecker = new WarrantyChecker();\nvar hasErrors = false;\n\nEvent.observe(window,
+        'load', function() {\n\nwarrantyPage = new WCPage();\nwarrantyPage.warrantycheck.initialize(547340);\n\n\n\n\n
+        \   warrantyPage.warrantycheck.hidePanel(); \n    $('cookieSpinner').hide();\n
+        \   \n    \n             warrantyPage.warrantycheck.hideRow('iphonenotactivated');\n
+        \            warrantyPage.warrantycheck.hideRow('loaner');\n\n            \n
+        \                $('results').show(); \n                 warrantyPage.warrantycheck.showTitle('status');\n
+        \                \n                 var regTextKeyLong = 'A validated purchase
+        date lets Apple quickly find your product and provide the help you need.';\n
+        \                $('registration-text').update(regTextKeyLong);\n                 warrantyPage.setClassAndShow('registration',
+        'green', 'registration-true');\n                 \n                 warrantyPage.warrantycheck.displayProductInfo('https://km.support.apple.com.edgekey.net/kb/securedImage.jsp?configcode=FFHN&size=72x72',
+        'iPhone 5c', true,'013977000323877', false, '', 'USE IMEI NUMBER');\n                 \n
+        \                warrantyPage.warrantycheck.displayPHSupportInfo( true, 'Telephone
+        Technical Support: Active', 'Your product is eligible for telephone technical
+        support under AppleCare+.<br/>Estimated Expiration Date: August 10, 2016<br/><a
+        href=\"http://www.apple.com/support/country/index.html?dest=applecare\">More
+        about AppleCare+</a>', 'https://getsupport.apple.com/GetproductgroupList.do?serialno=013977000323877&locale=en_US');
+        \n                 \n                 warrantyPage.warrantycheck.displayHWSupportInfo(true,
+        'Repairs and Service Coverage: Active (limits apply)', 'Your product is covered
+        for eligible hardware repairs and service under AppleCare+.<br/>Estimated
+        Expiration Date: August 10, 2016<br/><a href=\"https://support.apple.com/en-us/HT202696\">Learn
+        about Apple&#039;s coverage information for your product.</a>', 'https://getsupport.apple.com/GetproductgroupList.do?serialno=013977000323877&locale=en_US','');\n
+        \                \n                 warrantyPage.warrantycheck.displayEligibilityInfo('PD',
+        false, '', '013977000323877', 'We&#039;re sorry, but this product is not eligible
+        for an AppleCare agreement.', '/AgrOfferFlow.do','USA','APP','oesBxmqd7Pfs1TpmV2ejSg==',
+        false);\n                 \n                 warrantyPage.warrantycheck.displayDisputeInfo('<div
+        class=\"sosumi\">If you believe the information shown for your product is
+        incorrect, you can <a href=\"https://getsupport.apple.com/GetproductgroupList.do?caller=wc&PGF=PGF66001&category_id=SC0200&locale=en_US&sn=013977000323877\"
+        id=\"hardware-epop\" target=\"_blank\">submit your proof of purchase online</a>.
+        Your sales receipt is needed for Apple&#039;s Limited warranty, AppleCare
+        Protection Plan, and AppleCare+ validation, so be sure to keep it in a safe
+        place.  Apple&#039;s Limited warranty is the same whether or not you register.
+        <br /><br /><FONT COLOR=\"black\"><b>Important:</b> Apple&#039;s Limited warranty,
+        AppleCare Protection Plan, and AppleCare+ benefits are in addition to rights
+        provided by consumer law. For details, <a href=\"http://www.apple.com/legal/warranty/Additional_Legal_Rights_for_Consumers.html\"
+        target=\"_blank\">click here</a>. If you believe you have a valid consumer
+        law claim, please <a href=\"https://support.apple.com/en-us/HT201232\">contact
+        us</a>.</FONT></div>');\n                 \n                 \n               //Begin:Added
+        json Object:Espressp #14774083\n              \t var jsonObj = {\n                \t\t\t\t'phoneSupportHasCoverage'
+        : true,\n                \t\t\t\t'hwSupportHasCoverage' :    true,\n                \t\t\t\t'hwSupportCoverageValue'
+        : \t'PD',\n                \t\t\t\t'hasActiveAPP':             false,\n                \t\t\t\t'isAPPEligible'
+        :           false,\n                \t\t\t\t'isPPIEligible' :           false,\n
+        \               \t\t\t\t'productType' :             'iPhone',\n                \t\t\t\t'numDaysSinceDOP':
+        \         '405',\n                \t\t\t\t'hasTechToolDownload':       false\n
+        \               \t};\n                \n                 warrantyChecker.trackOmnitureResults(jsonObj);\n
+        \                \n                 //End:Added json Object:Espressp #14774083\n
+        \   \n\n});\n\n</script>\n\n\n\t\n\n                    </div>\n    \n                </div>\n
+        \   \n                <div class=\"clearer\"></div>\n            </div>\n
+        \       </div>\n        \n    </div>  \n                        \n</div>\n\n<script
+        type=\"text/javascript\"  charset=\"utf-8\" src=\"https://km.support.apple.com.edgekey.net/includes/darwin/en_US/secure/footer.js\">
+        </script>\n\n\n \n<!-- Gateway changes start -->\n\n<!-- Gateway changes end
+        -->\n</body>\n\n</html>\n"
+    http_version: 
+  recorded_at: Sun, 20 Sep 2015 15:28:13 GMT
+- request:
+    method: post
+    uri: https://selfsolve.apple.com/wcResults.do
+    body:
+      encoding: UTF-8
+      string: num=457311&sn=013977000323877
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - text/html; charset=UTF-8
+      X-Frame-Options:
+      - SAMEORIGIN
+      - SAMEORIGIN
+      X-Powered-By:
+      - Servlet/2.5 JSP/2.1
+      Nncoection:
+      - close
+      Vary:
+      - Accept-Encoding
+      Date:
+      - Sun, 20 Sep 2015 15:28:14 GMT
+      Content-Length:
+      - '19817'
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - JSESSIONID=4kB1V2QNlTp2hqvh6nlj1LctvQX1DTytDphvp09vwHCsQ2hR1fLJ!5703921; path=/;
+        secure; HttpOnly
+      - NSC_MCWT_tfmgtpmwf-bt.dpsq_80_443=ffffffff122a073b45525d5f4f58455e445a4a4200dc;Version=1;path=/;httponly
+      - POD=us~en; domain=.apple.com; expires=Sunday, 18-Oct-2015 15:28:14 GMT; path=/
+      - POD=us~en; domain=.apple.com; expires=Sunday, 18-Oct-2015 15:28:14 GMT; path=/
+    body:
+      encoding: UTF-8
+      string: "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<!DOCTYPE
+        html>\n<html lang=\"en-US\">\n<head>\n\t<meta charset=\"utf-8\">\n\t<meta
+        http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" />\n\t<meta
+        name=\"viewport\" content=\"width=1024\" />\n\t<meta name=\"Category\" content=\"Support\"
+        />\n\n\t\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=EmulateIE9\">\n
+        \   <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">\n
+        \   <meta http-equiv=\"Cache-Control\" content=\"no-siteapp\"/>\n    \n    <script
+        src=\"https://www.apple.com/global/scripts/lib/prototype.js\" type=\"text/javascript\"
+        charset=\"utf-8\"></script>\n    <script src=\"js/jquery-1.4.2.min.js\" type=\"text/javascript\"
+        charset=\"utf-8\"></script>\n    <script type=\"text/javascript\" src=\"js/jquery.titlealert.min.js\"
+        charset=\"utf-8\"></script>\n     <script>jQuery.noConflict();</script>\n
+        \   <script src=\"https://www.apple.com/global/scripts/lib/scriptaculous.js\"
+        type=\"text/javascript\" charset=\"utf-8\"></script>\n    <script src=\"js/content.js\"
+        type=\"text/javascript\" charset=\"utf-8\"></script>\n    <link rel=\"shortcut
+        icon\" href=\"images/favicon.ico\">\n\n<!-- This is the Remote Machine's 17.34.27.254
+        IP Address-->\n<script type=\"text/javascript\">\n  var errMsgData = {\n            'errEmpty'
+        : 'Please enter your product&#39;s serial number.',\n            'errLength'
+        : 'Please enter a valid serial number.',\n            'errChar' : 'Please
+        enter a valid serial number.',\n           };\n  \n  var strSysProWCResp =
+        '';\n\n\n</script>\n\n\n<title>\nApple - Support - Check Your Service and
+        Support Coverage\n\t\t</title>\n<meta name=\"omni_page\" content=\"acs::tools::wck::1-enter
+        serial number\">\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n</head>\n<body>\n\n<script
+        type=\"text/javascript\"  charset=\"utf-8\" src=\"https://km.support.apple.com.edgekey.net/includes/darwin/en_US/secure/header.js\">
+        </script>\n\n\n\t\t<!-- omniture reference must be located before omniture_tracking.js
+        -->\n\t\t<div id=\"top\">\n<!-- SiteCatalyst code version: H.8. Copyright
+        1997-2006 Omniture, Inc. -->\n<script type=\"text/javascript\">\n/* RSID:
+        */\nvar s_account=\"appleglobal,applesupport\"\n</script>\n\n\n<script type=\"text/javascript\"
+        src=\"https://www.apple.com/global/metrics/js/s_code_h.js\"></script>\n\n<script
+        type=\"text/javascript\">\ns.prop1 ='Online Self Solve';\n\ns.campaign=s.getQueryParam('sc_cid');\nif(s.campaign=='587735'){\n\ts.campaign=\"acs::system
+        profiler::us\";\n}\n\n\nif (!s.prop1) {s.prop1 = ''};\nif (!s.prop2) {s.prop2
+        = ''};\n\nvar url=location.href;\nvar pathArray = url.split('/');\nif (!s.prop1)
+        {s.prop1 = pathArray[4]};\nif (!s.prop2) {s.prop2 = pathArray[5]};\n\nvar
+        len=url.indexOf('?');\nif (len==-1){len=url.length}\ns.prop4=url.substr(0,len);\n\ns.pageName=AC.Tracking.pageName()+\"
+        (US)\";\ns.server=\"\"\ns.channel=\"www.us.support\"\ns.pageType=\"\"\ns.prop3=\"\"\nif
+        (!s.prop1 && s.pageName){\n\tif (s.pageName.match(/acs::web::homepage/)){\n\t\ts.prop1
+        = 'home';\n\t}\n}\n\n/* E-commerce Variables */\ns.state=\"\"\ns.zip=\"\"\ns.events=\"\"\ns.products=\"\"\ns.purchaseID=\"\"\ns.eVar1=\"\"\ns.eVar2=\"\"\ns.eVar3=\"\"\ns.eVar4=\"\"\ns.eVar5=\"\"\n\n/*************
+        DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/\ns.useForcedLinkTracking=false;var
+        s_code=s.t();if(s_code)document.write(s_code)</script>\n<!-- End SiteCatalyst
+        code version: H.8. -->\n</div>\n\n\n\n<link rel=\"stylesheet\" href=\"css/gateway.css\"
+        type=\"text/css\" charset=\"utf-8\">\n\n<LINK href=\"css/border-radius.htc\"
+        rel=\"stylesheet\" type=\"text/css\">\n\n<script>\n/* timeoutexpiring = 'Your
+        session is expiring soon due to an extended period of inactivity. Please click
+        Continue to keep your session active.'; */\ntimeoutexpiring = 'Your session
+        is expiring soon due to an extended period of inactivity. Please click Continue
+        to keep your session active.';\n/* continueButton = 'Continue'; */\ncontinueButton
+        = 'Continue';\n</script>\n\n<script src=\"js/utils.js\" type=\"text/javascript\"
+        charset=\"utf-8\"></script>\n<script src=\"js/clicktracking.js\" type=\"text/javascript\"
+        charset=\"utf-8\"></script>\n<script src=\"js/omniture_tracking.js\" type=\"text/javascript\"
+        charset=\"utf-8\"></script>\n<script type=\"text/javascript\" charset=\"utf-8\">utilService.setPOD('us~en');</script>\n\n<script>\n/*
+        timeoutexpiring = 'Your session is expiring soon due to an extended period
+        of inactivity. Please click Continue to keep your session active.'; */\ntimeoutexpiring
+        = 'Your session is expiring soon due to an extended period of inactivity.
+        Please click Continue to keep your session active.';\n/* timedoutexpired =
+        'Your session has expired due to an extended period of inactivity. If you
+        have other active online sessions with Apple Support, clicking Continue will
+        also end those sessions.'; */\ntimedoutexpired = 'Your session has expired
+        due to an extended period of inactivity. If you have other active online sessions
+        with Apple Support, clicking Continue will also end those sessions.';\n/*
+        areYouSureContent='Are you sure you&#39;d like to sign out?'; */\nareYouSureContent
+        = 'Are you sure you&#39;d like to sign out?';\n/* cancelBtn = 'Cancel'; */\ncancelBtn
+        = 'Cancel';\n/* signOutBtn = 'Sign out'; */\nsignOutBtn = 'Sign out';\n/*
+        whyMessageContent = 'When you sign in with your Apple ID, your contact information
+        is automatically added when needed, and it&#39;s easier to look up details
+        you have already provided.<br><br>An Apple ID is a user name you can use for
+        everything you do with Apple. You can use the same Apple ID you use for iTunes
+        Store, Apple Online Store, iChat, iCloud or other Apple services.'; */\nwhyMessageContent
+        = 'When you sign in with your Apple ID, your contact information is automatically
+        added when needed, and it&#39;s easier to look up details you have already
+        provided.<br><br>An Apple ID is a user name you can use for everything you
+        do with Apple. You can use the same Apple ID you use for iTunes Store, Apple
+        Online Store, iChat, iCloud or other Apple services.';\n/* continueButton
+        = 'Continue'; */\ncontinueButton = 'Continue';\n/* whylink = '(<a href=\"#\"
+        onclick=\"displayWhyMessage();\" tabindex=\"-1\">Why?</a>)'; */\nwhylink =
+        '(<a href=\"#\" onclick=\"displayWhyMessage();\" tabindex=\"-1\">Why?</a>)';\n/*
+        signin='<div id=\"sign_accessible\" class=\"anch_accessible\" tabindex=\"0\"><a
+        href=\"/Login.do\" tabindex=\"-1\">Sign in</a></div>&nbsp;with your Apple
+        ID'; */\nsignin = '<div id=\"sign_accessible\" class=\"anch_accessible\" tabindex=\"0\"><a
+        href=\"/Login.do\" tabindex=\"-1\">Sign in</a></div>&nbsp;with your Apple
+        ID';\n/* signout='Sign out'; */\nsignout = 'Sign out';\n</script>\n\n<div
+        id=\"container\">\n\t<noscript><font color=\"red\">The site you are viewing
+        requires JavaScript.  JavaScript is used in a variety of ways to improve the
+        online experience, such as allowing interactive content.  In order for this
+        site to operate as designed, please enable JavaScript in your browser.</font></noscript>
+        \n    <div id=\"main\">\n            \n        <div id=\"service\">\n        <!--
+        Gateway changes start -->\n            \t\n        \t\t\t\t\t<div id=\"signin_why_content\">\n
+        \       \t\t\t\t\t\n        \t\t\t\t\t\t<div id=\"sign_accessible\" class=\"anch_accessible\"
+        tabindex=\"0\"><a href=\"/Login.do\" tabindex=\"-1\">Sign in</a></div>&nbsp;with
+        your Apple ID\n        \t\t\t\t\t\t<span id=\"why_signin\" tabIndex=\"0\"
+        class='anch_accessible' >\n        \t\t\t\t\t\t\n        \t\t\t\t\t\t(<a href=\"#\"
+        onclick=\"displayWhyMessage();\" tabindex=\"-1\">Why?</a>)\n        \t\t\t\t\t\t</span>\n
+        \       \t\t\t\t\t</div>\t\n        \t\t\t\t\t\n        \t\t\t\t\t<div style=\"clear:
+        both; height: 0; line-height: 0; font-size: 0;\"></div>\n        \t\t\t\t\t\n
+        \                  \t\t<div id=\"wrap_popup1\" style=\"display:none; margin-top:
+        16px;\">\n                   \t\t\n                   \t\t\n        \t\t\t\t\t<div
+        style=\"position: relative; width: 280px; margin: 10px; background:#fff;\">\n
+        \       \t\t\t\t\t\t<div id=\"closeButton\" ><img src=\"images/close_button1.png\"
+        onclick=\"javascript:closeWhyMessage();\"></div>\n        \t\t\t\t\t\t\n        \t\t\t\t\t\t<div
+        id=\"whySignIn\">\n        \t\t\t\t\t\t\n        \t\t\t\t\t\tWhen you sign
+        in with your Apple ID, your contact information is automatically added when
+        needed, and it&#39;s easier to look up details you have already provided.<br><br>An
+        Apple ID is a user name you can use for everything you do with Apple. You
+        can use the same Apple ID you use for iTunes Store, Apple Online Store, iChat,
+        iCloud or other Apple services.\n        \t\t\t\t\t\t</div>\n        \t\t\t\t\t\t\n
+        \       \t\t\t\t\t</div>\n        \t\t\t\t\t\n        \t\t\t\t</div>\n                    \n\n
+        <!-- Gateway changes End -->\n\n\n<script src=\"js/utils/cookieJar.js\" type=\"text/javascript\"\n\tcharset=\"utf-8\"></script>\n<script
+        src=\"js/warranty/warrantyChecker2.js\" type=\"text/javascript\"\n\tcharset=\"utf-8\"></script>\n<script
+        src=\"js/agreementSales/salesWarrantyEntry.js\"\n\ttype=\"text/javascript\"
+        charset=\"utf-8\"></script>\n\n<style>\n#warranty button.happy\n{\n\tline-height
+        : 175%;\n}\n</style>\n<link rel=\"stylesheet\" href=\"css/wc.css\" type=\"text/css\"
+        charset=\"utf-8\">\n\n<div id=\"container\">\n\t<div id=\"main\">\n\t\t\n\t\t<div
+        class=\"padtop15\"></div>\n\n\t\t<div id=\"warranty\" class=\"module\">\n\t\t\t<div
+        id=\"signedout\" style=\"display: none; top: 0px;\">\n\t\t\t\t<img src=\"images/alert_large.png\"
+        width=\"75\" height=\"79\"\n\t\t\t\t\talign=\"middle\" style=\"float: left;
+        margin-right: 18px;\" />\n\t\t\t\t<div style=\"margin-top: 20px;\">\n\t\t\t\t\tYou
+        are signed out and your session has ended.\n\t\t\t\t\t<br>\n\t\t\t\t\t<span>\n\t\t\t\t\tYou
+        can start a new session below.\n\t\t\t\t\t</span>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<h1>\n\t\t\t\t<span
+        id=\"wcTitleCheck\" style=\"display: none\">\n\t\t\t\tCheck Your Service and
+        Support Coverage\n\t\t\t\t</span> <span\n\t\t\t\t\tid=\"wcTitleStatus\" style=\"display:
+        none\">\n\t\t\t\t\tYour Service and Support Coverage\n\t\t\t\t\t</span>\n\t\t\t</h1>\n\t\t\t<div
+        id=\"tagline\" style=\"display: none\">\n\t\t\t\tReview your Apple warranty
+        status and eligibility for support and extended coverage.\n\t\t\t</div>\n\n\t\t\t<div
+        id=\"cookieSpinner\" class=\"pad20\" style=\"display: none\">\n\t\t\t\t<img\n\t\t\t\t\tsrc=\"https://www.apple.com/support/applecare/images/aquaspinner20.gif\"\n\t\t\t\t\twidth=\"20\"
+        height=\"20\">\n\t\t\t</div>\n\t\t\t<div id=\"check\" class=\"pad20\" style=\"display:
+        none\">\n\n\t\t\t\t<!--  FORM  -->\n\n\t\t\t\t<!-- added bY manash -->\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t<form
+        id=\"serialnumbercheck\"\n\t\t\t\t\taction=\"/wcResults.do\" method=\"post\">\n\t\t\t\t\t\n\t\t\t\t\t<fieldset>\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\tEnter
+        your hardware serial number:\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t</label>
+        <br /> <input\n\t\t\t\t\t\t\ttype=\"text\" maxlength=\"15\" size=\"35\" name=\"sn\"
+        id=\"sn\" value=\"\" />\n\t\t\t\t\t\t<button name=\"Continue\" type=\"button\"
+        class=\"happy\"\n\t\t\t\t\t\t\tid=\"warrantycheckbutton\">\n\t\t\t\t\t\t\tContinue\n\t\t\t\t\t\t</button>\n\t\t\t\t\t\t<span
+        id=\"warrantycheckspinner\" style=\"display: none\"><img\n\t\t\t\t\t\t\tsrc=\"https://www.apple.com/support/applecare/images/aquaspinner20.gif\"\n\t\t\t\t\t\t\twidth=\"20\"
+        height=\"20\"></span>\n\t\t\t\t\t\t<div id=\"errorDiv\" style=\"display: none\">\n\t\t\t\t\t\t\t<span
+        id=\"error\" style=\"color: red\"></span>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<p
+        class=\"sidebar\">\n\t\t\t\t\t\t\tFinding your serial number is easy. <a href=\"https://support.apple.com/en-us/HT204308\"
+        target=\"_blank\">See how.</a>\t\t\t\t\t\t\t\n\t\t\t\t\t</fieldset>\n\t\t\t\t\t<input
+        type=\"hidden\" name=\"cn\" id=\"cn\" value=\"\" /> <input\n\t\t\t\t\t\ttype=\"hidden\"
+        name=\"locale\" id=\"locale\" value=\"\" /> <input\n\t\t\t\t\t\ttype=\"hidden\"
+        name=\"caller\" id=\"caller\" value=\"\" /> <input\n\t\t\t\t\t\ttype=\"hidden\"
+        name=\"num\" id=\"num\" value=\"\" />\n\t\t\t\t</form>\n\n\n\t\t\t\t<div class=\"padtop35\"></div>\n\t\t\t</div>\n\n\t\t\t<div
+        id=\"product\" style=\"display: none\">\n\t\t\t\t<div id=\"productimage\"></div>\n\t\t\t\t<div
+        id=\"productinfo\">\n\t\t\t\t\t<h2>\n\t\t\t\t\t\t<span id=\"productname\"></span>\n\t\t\t\t\t</h2>\n\t\t\t\t\t<span
+        id=\"imeiLabel\" style=\"display: none\"> \n\t\t\t\t\tIMEI:\n\t\t\t\t\t</span>
+        <span id=\"snLabel\" style=\"display: none\"> \n\t\t\t\t\tSerial Number:\n\t\t\t\t\t</span>
+        <span id=\"prodIdLabel\" style=\"display: none\"> \n\t\t\t\t\tMEID:\t\t \n\t\t\t\t\t</span>
+        <span id=\"productsn\"></span><br> <a\n\t\t\t\t\t\thref=\"/agreementWarrantyDynamic.do?newid=y\">\n\t\t\t\t\t\tCheck
+        another serial number\t \n\t\t\t\t\t\t\t </a>\n\t\t\t\t</div>\n\t\t\t\t<div
+        class=\"clear\"></div>\n\t\t\t</div>\n\n\t\t\t<div id=\"results\" style=\"display:
+        none\">\n\n\t\t\t\t<table>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t\t<div
+        id=\"iphonenotactivated\" class=\"status\">\n\t\t\t\t\t\t\t\t<h3 id=\"iphonenotactivated-true\"
+        style=\"display: none\">\n\t\t\t\t\t\t\t\t\tPlease activate your iPhone\n\t\t\t\t\t\t\t\t</h3>\n\t\t\t\t\t\t\t\t<p
+        id=\"iphonenotactivated-text\"></p>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t\t<td
+        class=\"button\">\n\t\t\t\t\t\t\t<button name=\"iphonenotactivated-button\"\n\t\t\t\t\t\t\t\tid=\"iphonenotactivated-button\"
+        class=\"happy\" type=\"button\"\n\t\t\t\t\t\t\t\t>\n\t\t\t\t\t\t\t\tService
+        Options\n\t\t\t\t\t\t\t</button>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t</tr>\n\t\t\t\t\t\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t\t<div
+        id=\"loaner\" class=\"status\">\n\t\t\t\t\t\t\t\t<h3 id=\"loaner-true\" style=\"display:
+        none\">\n\t\t\t\t\t\t\t\t\tApple Loaner Device\n\t\t\t\t\t\t\t\t</h3>\n\t\t\t\t\t\t\t\t<p
+        id=\"loaner-text\"></p>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t\t<td
+        class=\"button\">\n\t\t\t\t\t\t\t<button name=\"loaner-button\"\n\t\t\t\t\t\t\t\tid=\"loaner-button\"
+        class=\"happy\" type=\"button\"\n\t\t\t\t\t\t\t\t>\n\t\t\t\t\t\t\t\tContact
+        Apple Support\n\t\t\t\t\t\t\t</button>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t</tr>\n\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t\t<div
+        id=\"registration\" class=\"status\">\n\t\t\t\t\t\t\t\t<h3 id=\"registration-true\"
+        style=\"display: none\">\n\t\t\t\t\t\t\t\t\tValid Purchase Date\n\t\t\t\t\t\t\t\t</h3>\n\n\t\t\t\t\t\t\t\t<h3
+        id=\"registration-false\" style=\"display: none\">\n\t\t\t\t\t\t\t\t\tPurchase
+        Date not Validated\n\t\t\t\t\t\t\t\t</h3>\n\t\t\t\t\t\t\t\t<p id=\"registration-text\"></p>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t\t<td></td>\n\t\t\t\t\t</tr>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>\n\n\t\t\t\t\t\t\t<div
+        id=\"phone\" class=\"status\">\n\t\t\t\t\t\t\t\t<h3 id=\"phone-true\" style=\"display:
+        none\">\n\t\t\t\t\t\t\t\t\tTelephone Technical Support: Active\n\t\t\t\t\t\t\t\t</h3>\n\t\t\t\t\t\t\t\t<h3
+        id=\"phone-false\" style=\"display: none\">\n\t\t\t\t\t\t\t\t\tTelephone Technical
+        Support: Expired\n\t\t\t\t\t\t\t\t</h3>\n\t\t\t\t\t\t\t\t<!--  <div id=\"phone-expiration\"></div>
+        -->\n\t\t\t\t\t\t\t\t<p id=\"phone-text\"></p>\n\t\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t</td>\n\t\t\t\t\t\t<td
+        class=\"button\">\n\t\t\t\t\t\t\t<button name=\"phone-button\" id=\"phone-button\"
+        class=\"happy\" type=\"button\"\n\t\t\t\t\t\t\t\tonclick=\"\" >\n\t\t\t\t\t\t\t\tContact
+        Apple Support\n\t\t\t\t\t\t\t</button>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t</tr>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t\t<div
+        id=\"hardware\" class=\"status\">\n\n\t\t\t\t\t\t\t\t<h3 id=\"hardware-true\"
+        style=\"display: none\"></h3>\n\t\t\t\t\t\t\t\t<h3 id=\"hardware-false\" style=\"display:
+        none\"></h3>\n\t\t\t\t\t\t\t\t<h3 id=\"hardware-covered\" style=\"display:
+        none\"></h3>\n\t\t\t\t\t\t\t\t<!-- <div id=\"hardware-expiration\"></div>
+        -->\n\t\t\t\t\t\t\t\t<p id=\"hardware-text\"></p>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</td>\n\n\t\t\t\t\t\t<td
+        class=\"button\">\n\t\t\t\t\t\t\t<button name=\"hardware-button\" id=\"hardware-button\"
+        class=\"happy\" type=\"button\"\n\t\t\t\t\t\t\t\t onclick=\"\">\n\t\t\t\t\t\t\t\tSet
+        Up a Repair\n\t\t\t\t\t\t\t</button>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t</tr>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t\t<div
+        id=\"app\" class=\"status\">\n\t\t\t\t\t\t\t\t<h3 id=\"app-true\" style=\"display:
+        none\"></h3>\n\n\t\t\t\t\t\t\t\t<h3 id=\"app-false\" style=\"display: none\"></h3>\n\t\t\t\t\t\t\t\t<h3
+        id=\"app-covered\" style=\"display: none\"></h3>\n\t\t\t\t\t\t\t\t<p id=\"app-text\"></p>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t\t<td
+        class=\"button\">\n\t\t\t\t\t\t\t<button name=\"app-button\" id=\"app-button\"
+        class=\"happy\" type=\"button\"\n\t\t\t\t\t\t\t\t>\n\t\t\t\t\t\t\t\tExtend
+        Coverage\n\t\t\t\t\t\t\t</button>\n\n\t\t\t\t\t\t</td>\n\t\t\t\t\t</tr>\n\t\t\t\t</table>\n\n\t\t\t\t<!--/#OSS-111
+        start-->\n\t\t\t\t<p class=\"sosumi padtop20\">\n\t\t\t\t<div id=\"dispute\"
+        class=\"status\"></div>\n\t\t\t\t</p>\n\t\t\t\t<!--/#OSS-111 end-->\n\t\t\t\t<!--/#registered-->\n\t\t\t\t<!--\n
+        \         <div id=\"feedback\" class=\"sidebar\" style=\"border-top:1px solid
+        #ccc; padding:10px 20px\">If you have suggestions on how to improve the experience
+        of checking your warranty status, <a href=\"http://www.apple.com/support/feedback/index.html?ref=agreements\">please
+        let us know</a>.</div>\n         -->\n\t\t\t</div>\n\n\t\t</div>\n\t\t<!--/#main-->\n\t</div>\n\t<!--/#container-->\n\t\n\t<script
+        type=\"text/javascript\">\n\t\t$('signedout').hide();\n\t\t</script>\n\t\n\t<script
+        type=\"text/javascript\">\nvar warrantyPage;\n//instantiate warranty checker\nvar
+        warrantyChecker = new WarrantyChecker();\nvar hasErrors = false;\n\nEvent.observe(window,
+        'load', function() {\n\nwarrantyPage = new WCPage();\nwarrantyPage.warrantycheck.initialize(182382);\n\n\n\n\n
+        \   warrantyPage.warrantycheck.hidePanel(); \n    $('cookieSpinner').hide();\n
+        \   \n    \n             warrantyPage.warrantycheck.hideRow('iphonenotactivated');\n
+        \            warrantyPage.warrantycheck.hideRow('loaner');\n\n            \n
+        \                $('results').show(); \n                 warrantyPage.warrantycheck.showTitle('status');\n
+        \                \n                 var regTextKeyLong = 'A validated purchase
+        date lets Apple quickly find your product and provide the help you need.';\n
+        \                $('registration-text').update(regTextKeyLong);\n                 warrantyPage.setClassAndShow('registration',
+        'green', 'registration-true');\n                 \n                 warrantyPage.warrantycheck.displayProductInfo('https://km.support.apple.com.edgekey.net/kb/securedImage.jsp?configcode=FFHN&size=72x72',
+        'iPhone 5c', true,'013977000323877', false, '', 'USE IMEI NUMBER');\n                 \n
+        \                warrantyPage.warrantycheck.displayPHSupportInfo( true, 'Telephone
+        Technical Support: Active', 'Your product is eligible for telephone technical
+        support under AppleCare+.<br/>Estimated Expiration Date: August 10, 2016<br/><a
+        href=\"http://www.apple.com/support/country/index.html?dest=applecare\">More
+        about AppleCare+</a>', 'https://getsupport.apple.com/GetproductgroupList.do?serialno=013977000323877&locale=en_US');
+        \n                 \n                 warrantyPage.warrantycheck.displayHWSupportInfo(true,
+        'Repairs and Service Coverage: Active (limits apply)', 'Your product is covered
+        for eligible hardware repairs and service under AppleCare+.<br/>Estimated
+        Expiration Date: August 10, 2016<br/><a href=\"https://support.apple.com/en-us/HT202696\">Learn
+        about Apple&#039;s coverage information for your product.</a>', 'https://getsupport.apple.com/GetproductgroupList.do?serialno=013977000323877&locale=en_US','');\n
+        \                \n                 warrantyPage.warrantycheck.displayEligibilityInfo('PD',
+        false, '', '013977000323877', 'We&#039;re sorry, but this product is not eligible
+        for an AppleCare agreement.', '/AgrOfferFlow.do','USA','APP','oesBxmqd7Pfs1TpmV2ejSg==',
+        false);\n                 \n                 warrantyPage.warrantycheck.displayDisputeInfo('<div
+        class=\"sosumi\">If you believe the information shown for your product is
+        incorrect, you can <a href=\"https://getsupport.apple.com/GetproductgroupList.do?caller=wc&PGF=PGF66001&category_id=SC0200&locale=en_US&sn=013977000323877\"
+        id=\"hardware-epop\" target=\"_blank\">submit your proof of purchase online</a>.
+        Your sales receipt is needed for Apple&#039;s Limited warranty, AppleCare
+        Protection Plan, and AppleCare+ validation, so be sure to keep it in a safe
+        place.  Apple&#039;s Limited warranty is the same whether or not you register.
+        <br /><br /><FONT COLOR=\"black\"><b>Important:</b> Apple&#039;s Limited warranty,
+        AppleCare Protection Plan, and AppleCare+ benefits are in addition to rights
+        provided by consumer law. For details, <a href=\"http://www.apple.com/legal/warranty/Additional_Legal_Rights_for_Consumers.html\"
+        target=\"_blank\">click here</a>. If you believe you have a valid consumer
+        law claim, please <a href=\"https://support.apple.com/en-us/HT201232\">contact
+        us</a>.</FONT></div>');\n                 \n                 \n               //Begin:Added
+        json Object:Espressp #14774083\n              \t var jsonObj = {\n                \t\t\t\t'phoneSupportHasCoverage'
+        : true,\n                \t\t\t\t'hwSupportHasCoverage' :    true,\n                \t\t\t\t'hwSupportCoverageValue'
+        : \t'PD',\n                \t\t\t\t'hasActiveAPP':             false,\n                \t\t\t\t'isAPPEligible'
+        :           false,\n                \t\t\t\t'isPPIEligible' :           false,\n
+        \               \t\t\t\t'productType' :             'iPhone',\n                \t\t\t\t'numDaysSinceDOP':
+        \         '405',\n                \t\t\t\t'hasTechToolDownload':       false\n
+        \               \t};\n                \n                 warrantyChecker.trackOmnitureResults(jsonObj);\n
+        \                \n                 //End:Added json Object:Espressp #14774083\n
+        \   \n\n});\n\n</script>\n\n\n\t\n\n                    </div>\n    \n                </div>\n
+        \   \n                <div class=\"clearer\"></div>\n            </div>\n
+        \       </div>\n        \n    </div>  \n                        \n</div>\n\n<script
+        type=\"text/javascript\"  charset=\"utf-8\" src=\"https://km.support.apple.com.edgekey.net/includes/darwin/en_US/secure/footer.js\">
+        </script>\n\n\n \n<!-- Gateway changes start -->\n\n<!-- Gateway changes end
+        -->\n</body>\n\n</html>\n"
+    http_version: 
+  recorded_at: Sun, 20 Sep 2015 15:28:14 GMT
+recorded_with: VCR 2.9.3
