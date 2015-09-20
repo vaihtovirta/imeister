@@ -9,7 +9,7 @@ module Imeister
       @imei = imei
       @in_warranty = false
       @expiration_date = nil
-      @response = response
+      @response = fetch_response
     end
 
     def call
@@ -18,10 +18,10 @@ module Imeister
         @expiration_date = check_expiration_date
       end
 
+      remove_instance_variable(:@response)
+
       self
     end
-
-    private
 
     def check_expiration_date
       Date.parse @response.body.match(EXPIRATION_DATE_REGEXP)[1]
@@ -39,7 +39,7 @@ module Imeister
       end
     end
 
-    def response
+    def fetch_response
       connection.post RESULTS_URL, sn: @imei, num: rand(999_999)
     end
   end

@@ -21,7 +21,7 @@ Or install it yourself as:
 ## Usage
 ```ruby
 imeister = Imeister.find(VALID_IMEI)
-#=> #<Imeister::WarrantyStatus:0x007fb627c18150 @expiration_date="May 18, 2099", @imei=VALID_IMEI, @warranty_status="In warranty">
+#=> #<Imeister::WarrantyStatus:0x007f87c32db728 @imei="VALID_IMEI", @in_warranty=true, @expiration_date=#<Date: 2022-05-18 ((2457611j,0s,0n),+0s,2299161j)>>
 ```
 ## Development
 
